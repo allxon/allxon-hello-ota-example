@@ -23,7 +23,7 @@ Since you are supposed to verify the OTA activity before doing mass deployment, 
 
 1. Make sure you have put everything (docker image, firmware, BSP image, application file, software, script, image, video, etc.) you are going to deploy onto your devices into the `ota_content` directory. 
 2. Edit `ota_deploy.sh` to suit your needs. (e.g. calling an executable file to execute an action or run an application update).
-3. Run `$allxon-cli ota make –d {absolute path of the ota_content folder}` to generate an OTA artifact. 
+3. Run `$allxon-cli ota make –d {path of the ota_content folder}` to generate an OTA artifact. 
 4. Run `$sudo allxon-cli ota test -f {file name of the artifact}` to test the Allxon OTA artifact you just generated. This action will simulate OTA deployment by asking the Allxon Agent to execute `ota_deploy.sh`, so please do mind that all the commands in the script are going to be executed on the edge. 
 5. Verify if the deployment operation is executed as expected as specified in `ota_deploy.sh`.
 
