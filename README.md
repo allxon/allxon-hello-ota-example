@@ -4,7 +4,7 @@ This example shows you how to prepare your wanted OTA files, including all the a
 # Hello OTA Example Content Structure
 The Allxon Hello OTA folder structure below shows you where to correctly input your files and directories for packaging your OTA artifact smoothly. 
 ```
-allxon-hello-ota-example
+allxon-hello-ota-example-main
 ├── ota_content
 │   └── ota_deploy.sh
 │   └── allxon-ascii-pure.sh
