@@ -28,7 +28,7 @@ Since you are supposed to verify the OTA activity before doing mass deployment, 
 5. Verify if the deployment operation is executed as expected as specified in `ota_deploy.sh`.
 
 # Note
-The OTA artifact is architecture-sensitive, and by default, the artiface owns the same architecture of the platform who generates it. (e.g. `x86`, `x86_64` or `aarch64`).
+The OTA artifact is architecture-sensitive, and by default, the artiface owns the same architecture of the platform who generates it. (e.g. `x86_64` or `aarch64`).
 
    
    
