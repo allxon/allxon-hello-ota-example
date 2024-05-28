@@ -27,10 +27,10 @@ Since you are supposed to verify the OTA activity before doing mass deployment, 
 4. Run `$sudo allxon-cli ota test -f {file name of the artifact}` to test the Allxon OTA artifact you just generated. This action will simulate OTA deployment by asking the Allxon Agent to execute `ota_deploy.sh`, so please do mind that all the commands in the script are going to be executed on the edge. 
 5. Verify if the deployment operation is executed as expected as specified in `ota_deploy.sh`.
 
-# Note
-The OTA artifact is architecture-sensitive for execution, and by default, the artiface owns the same architecture of the platform who generates it. (e.g. `x86_64` or `aarch64`).
-But in the meanwhile, Allxon CLI also offer cross-platform artifact creation, such as generating aarch64 artifacts on an x86 platform for development purposes.
-More details are available in here: https://github.com/allxon/allxon-cli/blob/master/ota.md
+> [!NOTE]
+> The OTA artifact is architecture-sensitive for execution, and by default, the artiface owns the same architecture of the platform who generates it. (e.g. `x86_64` or `aarch64`).
+> But in the meanwhile, Allxon CLI also offer cross-platform artifact creation, such as generating aarch64 artifacts on an x86 platform for development purposes.
+> More details are available in [here](https://github.com/allxon/allxon-cli/blob/master/ota.md).
    
    
 # What is Next
