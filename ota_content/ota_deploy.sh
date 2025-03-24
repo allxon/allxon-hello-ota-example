@@ -2,6 +2,7 @@
 set -e
 echo -ne "Installing... \n"
 
+mkdir -p /usr/share/allxon-dms-agent
 cp allxon-ascii-pure.sh /usr/share/allxon-dms-agent/.
 cp hello_ota.png /usr/share/allxon-dms-agent/.
 cp allxonOTA.desktop /usr/share/applications/.
